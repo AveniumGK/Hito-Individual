@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main role="main">
+            <div class="jumbotron" style="background-color: #26316C">
+                <div class="container">
+                    <img class="Osuna" src="img/logo.png" style="width: 50%;">
+                </div>
+            </div>
+            <div class="container" style="margin-left: 10px;">
+                <div class="row">
+                    <h3>Encuesta</h3>
+                </div>
+                <div class="row" style="margin-top: 8px;">
+                    <h1> XMLHttpRequest - Leer archivo JSON</h1>
+                </div>
+                <button type="button" class="btn" id="boton" onclick="traerDatos()">Leer JSON</button>
+                <div class="row" style="margin-top: 8px;">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>CODPROV</th>
+                                <th>NOMBRE_PROVINCIA</th>
+                                <th>CODAUTON</th>
+                                <th>COMUNIDAD_CIUDAD_AUTONOMA</th>
+                                <th>CAPITAL_PROVINCIA</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resp">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
+    <script src='main.js'></script>
+
+</html>

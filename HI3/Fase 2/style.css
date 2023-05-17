@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.container {
+    box-sizing: content-box;
+    width:100%;
+    
+}
+  
+header{
+    background-color: #26316C;
+    color: white;
+}
+
+section{
+    background-color: #DCD8D5;
+    width:100%;
+}
+
+footer{
+    width:100%;
+    background-color: #26316C;
+    color:#fff;
+}
+#navegacion{
+    display:flex;
+    flex-flow: row nowrap;
+}
+#seccion1{
+    background-color: #b7c0f6;
+    width:100%;
+    height: 50%;
+}
+#seccion2{
+    background-color: #cbfa98;
+    width:100%;
+    height: 50%;
+}
+
+.jumbotron{
+    background-color: #26316C;
+}
